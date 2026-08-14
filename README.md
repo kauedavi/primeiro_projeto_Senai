@@ -1,3 +1,3 @@
-# TItulo meu projeto
+# Meu projeto
 
-Esse é um projeto de implantação no github
+Primeiro projeto do Timao
