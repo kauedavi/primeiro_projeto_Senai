@@ -1,4 +1,3 @@
-/*2.	Operadores Lógicos Básicos: Crie um programa que declare três variáveis booleanas representando condições quaisquer (ex: cond1, cond2, cond3). Utilize os operadores lógicos AND (&&) e OR (||) para combinar essas condições e exiba os resultados no console.*/
 
 class Main {
     public static void main(String[] args) {
