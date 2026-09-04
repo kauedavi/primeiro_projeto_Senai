@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class atv4 {
-    static void main(){
+    static void atv4(){
 
         Scanner env = new Scanner(System.in);
 
@@ -14,8 +14,10 @@ public class atv4 {
             System.out.println("Parabéns!");
         }else if (nota >= 5 && nota <= 6){
             System.out.println("Seu desempenho ok.");
-            }else {
+            }else if (nota >= 0 && nota <= 4) {
             System.out.println("Nota ruim.");
+        } else {
+            System.out.println("Não atende aos criterios.");
         }
 
     }
