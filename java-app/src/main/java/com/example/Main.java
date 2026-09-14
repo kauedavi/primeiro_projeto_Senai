@@ -6,23 +6,12 @@ public class Main {
     public static void main(String[] args) {
         Scanner env = new Scanner(System.in);
 
-        float totalVenda = 0;
-        float valorRecebido = 0;
-        int quantidadeDeVendas = 0;
+        for (int quantidade = 0; quantidade <= 15; quantidade++) {
 
-        do{
-             System.out.println("Faça sua compra: " + " quantidade: " + quantidadeDeVendas);
-             valorRecebido = env.nextFloat();
+            System.out.println("Digite o produto");
+            String produto = env.nextLine();
 
-             totalVenda = valorRecebido + totalVenda;
-
-             quantidadeDeVendas ++;
-           
-
-        }while(quantidadeDeVendas < 5);
-
-        System.out.println("total: " + quantidadeDeVendas);
+            System.out.println("Produto nº" + quantidade + " verificado. Tipo de produto: " + produto);
+        }
     }
-
-    
 }
