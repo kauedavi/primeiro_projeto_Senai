@@ -6,12 +6,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner env = new Scanner(System.in);
 
-        for (int quantidade = 0; quantidade <= 15; quantidade++) {
+        float[] temperaturaDiaria = new float[10];
 
-            System.out.println("Digite o produto");
-            String produto = env.nextLine();
+        int dia = 1;
 
-            System.out.println("Produto nº" + quantidade + " verificado. Tipo de produto: " + produto);
+        for (int i = 0; i < temperaturaDiaria.length; i++) {
+            System.out.println("temperatura do dia " + dia);
+            dia++;
+            temperaturaDiaria[i] = env.nextFloat();
         }
     }
+
 }
