@@ -1,4 +1,4 @@
-public class atv {
+public class ex1 {
        public static void main(String[] args) {
         System.out.println("Hello world!");
         Scanner env = new Scanner(System.in);
