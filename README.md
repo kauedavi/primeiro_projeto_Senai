@@ -1,4 +1,4 @@
-# Meu projeto
+# Atividades SENAI - Java
 
 ``` 
 Feat: Implementando novas funcionalidades
@@ -12,7 +12,8 @@ Refactor: Processos de refatoração
 - Atividade de arrays e matrizes: ✅
 - atividade de repetição: ✅
 - atividade de if-else: ✅
-- desafio: ✅
+- atvidade de readers e buffers: ✅
+- desafios buffers: pendente.
 
 
 ![oioi](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQabvBOzGI9NWRAbT58qUouyUCF09-3jBtW-xx8HpgtCw&s)
